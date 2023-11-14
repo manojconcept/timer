@@ -7,7 +7,7 @@ const pmSpan = document.querySelector(".pm");
 
 setInterval(()=>{
     const time = new Date();
-    const hour = time.getDate();
+    const hour = time.getHours();
     const mins = time.getMinutes();
     const sec = time.getSeconds();
     console.log(hour-12,mins,sec);
